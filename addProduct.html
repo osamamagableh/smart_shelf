@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add product</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="addProductSection">
+        <form action="" method="POST" id="addProduct" class="boxForm">
+          <fieldset>
+            <legend>Add New Product</legend>
+            <label>Product Name</label>
+            <input id="name" name="name" type="text" placeholder="Name Of Product" required>
+            <label>Shelf Number</label>
+            <input id="shelfNumber" name="shelfNumber" type="text" placeholder="What is the shelf number "
+              required>
+            <label>ProductWight</label>
+            <input id="ProductWight" name="ProductWight" type="text" placeholder="what is the wight for the product in KG" required>
+            <label>Maximam Capacty</label>
+            <input id="MaxinamCapacty" name="MaxinamCapacty" type="number" step=".1" min="1" placeholder="maximam number of product in shelf"
+              required>
+            <input type="submit" value="Submit" class="btn btn-submit">
+          </fieldset>
+  
+          <dev id="alert" class="alert hide"> your product has been added </dev>
+        </form>
+  
+      </section>
+  <script src="app.js"></script>
+
+</body>
+</htm
